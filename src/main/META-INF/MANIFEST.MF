@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: GCViewer
+Implementation-Revision: 1fc85c3c7c425a1c396bfeae01ea47fa4dd87477
+Implementation-Version: 1.36-SNAPSHOT
+Built-By: travis
+Implementation-Vendor-Id: com.github.chewiebug
+Implementation-Date: 2019-06-11T20:34:14+0000
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_141
+Implementation-URL: http://github.com/chewiebug/GCViewer/wiki
+Main-Class: com.tagtraum.perf.gcviewer.GCViewer
+
