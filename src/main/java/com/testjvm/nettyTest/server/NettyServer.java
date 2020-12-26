@@ -17,7 +17,13 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 * @date 2017-8-31
  */
 public class NettyServer {
-        private static final int port = 6789; //设置服务端端口
+
+    /**
+     * VM :
+     *
+     * -Xmx1024m -Xms1024m -XX:+PrintGCDetails -XX:+HeapDumpOnOutOfMemoryError -Xloggc:log/gc.log -XX:HeapDumpPath=/usr/local/log/server.dump
+     */
+    private static final int port = 6789; //设置服务端端口
         private static  EventLoopGroup group = new NioEventLoopGroup();   // 通过nio方式来接收连接和处理连接   
         private static  ServerBootstrap b = new ServerBootstrap();
 
